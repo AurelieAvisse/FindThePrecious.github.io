@@ -66,6 +66,7 @@ p {
 
 .burger {
     height: 4.2vmin;
+    margin-top: -0.5em;
 }
 
 h4 {
@@ -272,8 +273,6 @@ h4 {
 
 .bl {
     color: white;
-    margin-top: 2em;
-    
 }
 
 .bla {
@@ -285,7 +284,7 @@ h4 {
 
 #noir {
     background-color: black;
-    
+    margin-top: 2em;
 }
 
 .coin {
@@ -301,29 +300,87 @@ h4 {
     font-size: 4vmin;
     margin-left: 0.5em;
     margin-right: 1em;
-padding-top: -4em;
+    margin-top: -4em;
 }
 
 HR {
     height: 0.5vmin;
 }
 
-.parallelogram {
-    
+.enjoy-css {
+    display: inline-block;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
+    cursor: pointer;
+    margin: 2px 40%;
+    padding-bottom: 0.5em;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: orange;
+    font-size: 3.5vmin;
+    font-family: 'Aniron';
     width: 30vmin;
     height: 6vmin;
-    border: none;
-    padding-top: 0.5em;
-    font-family: 'Aniron';
-    font-size: 3vmin;
-    text-align: center;
-    margin: 2% 40%;
+    background: white;
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+.enjoy-css:hover {
+    color: white;
+    background: orange;
+}
+
+.enjoy-css:focus {
+    color: white;
+    background: orange;
+}
+
+.hunter1 {
+    height: 30vmin;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+h5 {
+    font-family: 'Party Business';
     color: orange;
-    -webkit-box-align: center;
-    background:white;
-    -webkit-transform:    skewX(-20deg);
-    transform:    skewX(-20deg);
-  }
+    font-size: 6vmin;
+    margin-top: 1.5em;
+    margin-left: 0.2em;
+}
+
+.rill {
+    font-family: 'Party Business';
+    font-size: 3.5vmin;
+    margin-top: -0.3em;
+    margin-left: 0.2em;
+}
+
+.piece {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 20vmin;
+    height: 5vmin;
+    margin: -0.4em 8%;
+    padding: 2px;
+    border: none;
+    font-family: 'Party Business';
+    color: orange;
+    font-size: 4.5vmin;
+    text-align: center;
+    background: black;
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+.ann {
+    height: 5vmin;
+}
+
+.profile {
+    text-decoration: underline;
+    font-weight: none;
+}
