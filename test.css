@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'partybusiness.ttf';
-    src: url('partybusiness.ttf');
-}
+
 
 
 .container-fluid {
@@ -15,7 +12,7 @@ h3 {
 }
 
 p {
-    font-family: 'partybusiness';
+    font-family: 'Party Business';
     font-size: 4vw;
 }
 
@@ -142,11 +139,11 @@ h4 {
     background-color: rgba(255, 255, 255, 0.8);
     font-size: 2.5vw;
     text-align: center;
-    font-family: 'partybusiness';
+    font-family: 'Party Business';
   }
   .reward span {
     color: orange;
-    font-family: 'partybusiness'!important;
+    font-family: 'Party Business'!important;
   }
   .name {
     position: absolute;
@@ -154,7 +151,7 @@ h4 {
     left: 30%;
     font-size: 3vw;
     color: white;
-    font-family: 'partybusiness';
+    font-family: 'Party Business';
   }
   
   .Gimli {
