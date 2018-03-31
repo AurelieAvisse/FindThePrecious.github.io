@@ -9,6 +9,11 @@
     src: url('anicb___.ttf');
     }
 
+    @font-face {
+        font-family: 'Tengwar Annatar';
+        src: url('tngan.ttf');
+        }
+
 .container-fluid {
     width: 100%;
 }
