@@ -1,10 +1,13 @@
 @font-face {
     font-family: 'Party Business';
-    font-family: 'Aniron';
     src: url('party-business_[fr.allfont.net].ttf');
-    src: url('anicb_.ttf');
+    
     }
 
+    @font-face {
+    font-family: 'Aniron';
+    src: url('anicb_.ttf');
+    }
 
 .container-fluid {
     width: 100%;
